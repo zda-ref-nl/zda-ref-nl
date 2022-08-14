@@ -1,0 +1,46 @@
+:root {
+    --bs-body-font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emojia;
+}
+
+.sict-w38 {
+    width: 38px;
+}
+
+.sict-h38 {
+    height: 38px;
+}
+
+nav#TableOfContents {
+    display: block;
+    background: transparent;
+    padding-bottom: 2rem;
+    font-size: 1.2em;
+}
+
+nav#TableOfContents ul {
+    display: list-item;
+    padding-left: 0;
+}
+
+nav#TableOfContents ul:not(:first-child) {
+    display: list-item;
+    padding-left: 0.9rem;
+    font-size: 95%;
+}
+
+
+nav#TableOfContents ul > li {
+    display: inherit;
+    color: var(--bs-primary);
+}
+
+nav#TableOfContents ul > li > a {
+    color: inherit;
+    text-align: left;
+    padding: 0;
+}
+
+nav#TableOfContents a:hover {
+    color: var(--bs-secondary);
+    background-color: transparent;
+}
